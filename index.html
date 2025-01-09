@@ -51,7 +51,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Sudip Subedi</h1>
-   <p class="section__text__p2" id="dynamic-role">Frontend Developer</p>
+        <p><span id="dynamic-text"></span></p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -502,5 +502,14 @@
       <p>Copyright &#169; 2025 Sudip Subedi. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script>
+      AOS.init();
+      new Typed("#dynamic-text", {
+          strings: ["Programmer", "Machine Learning Enthusiast", "Innovator"],
+          typeSpeed: 50,
+          backSpeed: 30,
+          loop: true
+      });
+  </script>
   </body>
 </html>
