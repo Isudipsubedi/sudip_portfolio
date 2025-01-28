@@ -44,8 +44,6 @@
         </div>
       </div>
     </nav>
-
-    
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
@@ -93,92 +91,55 @@
         </div>
       </div>
     </section>
-
-<section id="about">
-  <div class="section-header">
-    <p class="section-subtitle">Professional Profile</p>
-    <h1 class="section-title">About Me</h1>
-  </div>
-
-  <div class="content-wrapper">
-    <div class="achievements-container">
-      <!-- Accomplishments Card -->
-      <div class="card">
-        <div class="card-header">
-          <svg class="icon" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-          <h3>Accomplishments</h3>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
         </div>
-        <ul class="card-list">
-          <li>
-            <span class="highlight">1st Place</span> - AI Competition IT Meet 2024
-            <div class="tag">Computer Vision</div>
-          </li>
-          <li>
-            Machine Learning Fellow
-            <div class="tag">Fellowship.AI Cohort 33</div>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Education Card -->
-      <div class="card">
-        <div class="card-header">
-          <svg class="icon" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2v6h6v4l3.5-3 3.5 3v-4h6v-6l4-2-11-6z"/></svg>
-          <h3>Education</h3>
-        </div>
-        <ul class="card-list">
-          <li>
-            <span class="highlight">B.E. Computer Engineering</span><br>
-            Kathmandu University (2021-Present)
-          </li>
-          <li>
-            +2 Science (Physics)<br>
-            SOS Hermann Gmeiner School (2019-2021)
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Technical Profile Section -->
-    <div class="technical-profile">
-      <h2 class="profile-title">Technical Profile</h2>
-      <div class="profile-content">
-        <p class="lead-text">
-          Computer Engineering undergraduate specializing in full-stack development and machine learning with proven expertise in:
-        </p>
-        
-        <ul class="expertise-list">
-          <li>
-            <span class="bullet">▹</span>
-            Developing production-grade applications using JavaScript, Python, and cloud technologies
-          </li>
-          <li>
-            <span class="bullet">▹</span>
-            Implementing machine learning models with 85%+ accuracy in real-world scenarios
-          </li>
-          <li>
-            <span class="bullet">▹</span>
-            Leading cross-functional teams in agile development environments
-          </li>
-        </ul>
-
-        <div class="skill-tags">
-          <span>Full-Stack Development</span>
-          <span>Cloud Architecture</span>
-          <span>Data Science</span>
-          <span>AI/ML Solutions</span>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>PARTICIPATIONS</h3>
+              <p>Winner | AI Competition IT Meet 2024 <br />Machine Learning Fellow | Fellowship.AI</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors in Computer Engineering, Kathmandu University<br />+2 Science, SOS Hermann Gmeiner School</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Enthusiastic Computer Engineering undergraduate at Kathmandu University, skilled in JavaScript, SQL, Python
+              and cloud technologies. Experienced in data analysis, machine learning, and full-stack development, with a track
+              record of delivering innovative projects. Strong team player with attention to detail, looking to apply technical
+              expertise in real life projects .
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="scroll-indicator">
-    <svg class="arrow" viewBox="0 0 24 24" onclick="location.href='./#experience'">
-      <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
-    </svg>
-  </div>
-</section>
-
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
@@ -419,175 +380,92 @@
         onclick="location.href='./#projects'"
       />
     </section>
-
     <section id="projects">
-      <p class="section__text__p1">Explore My Technical</p>
+      <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="projects-container">
-          <!-- Project 1 - NEPSE Stock Prediction -->
+        <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-neplse.png" alt="Stock prediction dashboard" class="project-img"/>
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
             </div>
-            <h2 class="experience-sub-title project-title">NEPSE Stock Prediction</h2>
-            <div class="project-details">
-              <p class="project-description">Developed LSTM neural network model achieving 87% accuracy in predicting stock trends for Nepal Stock Exchange</p>
-              <div class="tech-stack">
-                <span>Python</span>
-                <span>TensorFlow</span>
-                <span>LSTM</span>
-                <span>Pandas</span>
-              </div>
-            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/isudipsubedi/nepse-prediction'">
-                <img src="./assets/github-white.png" alt="GitHub icon" class="btn-icon"/>
-                Code
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://medium.com/@sudipsays/nepse-analysis'">
-                <img src="./assets/medium-white.png" alt="Medium icon" class="btn-icon"/>
-                Case Study
-              </button>
-            </div>
-          </div>
-    
-          <!-- Project 2 - OpenEdit Image Tool -->
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/project-openedit.png" alt="Image editor interface" class="project-img"/>
-            </div>
-            <h2 class="experience-sub-title project-title">OpenEdit</h2>
-            <div class="project-details">
-              <p class="project-description">Web-based image processing tool with 15+ filters and real-time transformations using OpenCV</p>
-              <div class="tech-stack">
-                <span>OpenCV</span>
-                <span>Flask</span>
-                <span>React</span>
-                <span>WebGL</span>
-              </div>
-            </div>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/isudipsubedi/openedit'">
-                <img src="./assets/github-white.png" alt="GitHub icon" class="btn-icon"/>
-                Frontend
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://openedit-demo.com'">
-                <img src="./assets/demo-icon.png" alt="Demo icon" class="btn-icon"/>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
                 Live Demo
               </button>
             </div>
           </div>
-    
-          <!-- Project 3 - E-Commerce Platform -->
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-ecommerce.png" alt="E-commerce dashboard" class="project-img"/>
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
             </div>
-            <h2 class="experience-sub-title project-title">E-Commerce Platform</h2>
-            <div class="project-details">
-              <p class="project-description">Full-stack shopping platform handling 1000+ daily transactions with payment integration</p>
-              <div class="tech-stack">
-                <span>Node.js</span>
-                <span>MongoDB</span>
-                <span>React</span>
-                <span>Stripe API</span>
-              </div>
-            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/isudipsubedi/ecommerce'">
-                <img src="./assets/github-white.png" alt="GitHub icon" class="btn-icon"/>
-                Full Code
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
               </button>
             </div>
           </div>
-    
-          <!-- Project 4 - PDF Answer Retriever -->
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-pdf.png" alt="PDF search interface" class="project-img"/>
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
             </div>
-            <h2 class="experience-sub-title project-title">PDF Answer System</h2>
-            <div class="project-details">
-              <p class="project-description">NLP-powered document search engine with 95% query accuracy using vector embeddings</p>
-              <div class="tech-stack">
-                <span>Python</span>
-                <span>BERT</span>
-                <span>FAISS</span>
-                <span>Flask</span>
-              </div>
-            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/isudipsubedi/pdf-qa'">
-                <img src="./assets/github-white.png" alt="GitHub icon" class="btn-icon"/>
-                Algorithm
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://arxiv.org/pdf/1234.56789'">
-                <img src="./assets/research-paper.png" alt="Research icon" class="btn-icon"/>
-                Research
-              </button>
-            </div>
-          </div>
-    
-          <!-- Project 5 - Virtual Trial Room -->
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/project-virtual.png" alt="AR clothing preview" class="project-img"/>
-            </div>
-            <h2 class="experience-sub-title project-title">Virtual Trial Room</h2>
-            <div class="project-details">
-              <p class="project-description">Augmented Reality solution reducing returns by 40% through virtual clothing trials</p>
-              <div class="tech-stack">
-                <span>Three.js</span>
-                <span>TensorFlow.js</span>
-                <span>WebXR</span>
-                <span>Node.js</span>
-              </div>
-            </div>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/isudipsubedi/virtual-trial'">
-                <img src="./assets/github-white.png" alt="GitHub icon" class="btn-icon"/>
-                Core Engine
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://virtual-trial-demo.com'">
-                <img src="./assets/demo-icon.png" alt="Demo icon" class="btn-icon"/>
-                AR Demo
-              </button>
-            </div>
-          </div>
-    
-          <!-- Project 6 - Office Management System -->
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/project-office.png" alt="Management system dashboard" class="project-img"/>
-            </div>
-            <h2 class="experience-sub-title project-title">Office Management System</h2>
-            <div class="project-details">
-              <p class="project-description">Enterprise resource planning system reducing operational costs by 25%</p>
-              <div class="tech-stack">
-                <span>Java</span>
-                <span>Spring Boot</span>
-                <span>MySQL</span>
-                <span>React</span>
-              </div>
-            </div>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/isudipsubedi/office-mgmt'">
-                <img src="./assets/github-white.png" alt="GitHub icon" class="btn-icon"/>
-                Backend
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/123'">
-                <img src="./assets/architecture.png" alt="Architecture icon" class="btn-icon"/>
-                Architecture
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
               </button>
             </div>
           </div>
         </div>
       </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
     </section>
-
-
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
